@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>História da Responsividade</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        /* Estilos personalizados com paleta de cores neon */
+        body {
+            background-color: #000;
+            color: #fff;
+        }
+
+        h1,
+        h2 {
+            color: #ff6ec7;
+            text-shadow: 2px 2px 4px #ff6ec7;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            padding: 20px;
+        }
+
+        /* Estilos para o carrossel */
+        .carousel-inner .carousel-item img {
+            width: 100%;
+            height: 600px;
+
+        }
+
+        .mb-3 {
+            margin: 10px auto;
+            width: 80%;
+        }
+
+        .container#title {
+            border: #ff6ec7;
+            box-shadow: 2px 2px 4px #ff6ec7;
+            width: 100%;
+        }
+
+        h6 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+
+        .card-group {
+            margin: 20px auto;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .card-img-top {
+            height: 340px;
+        }
+         .text-bg-dark {
+            margin: 10px auto;
+            margin-bottom: 40px;
+            width: 90%;
+         }
+        .text-bg-dark img{
+            height: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container" id="title">
+        <h1>Responsividade</h1>
+    </div>
+    <br>
+    <br>
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./img/imagem1.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/imagem2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./img/imagem3.png" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <h1>O que é?</h1>
+    </div>
+    <br>
+    <div class="card mb-3">
+        <div class="card-body">
+            <h5 class="card-title">Site Responsivo</h5>
+            <p class="card-text">
+            <h6>DEFINAÇÃO: É uma técnica de estruturação HTML e CSS que resulta na adaptação do site ao browser do
+                usuário.</h6>
+            - Dessa forma, o layout fica mais fluido e agradável. Isso impacta diretamente na usabilidade da
+            aplicação, aumentando as visualizações e o tempo de permanência do usuário.
+            <br>
+            - O design responsivo é um método que permite ajustar o conteúdo e o design geral do
+            seu site dependendo do dispositivo que o usuário usa para visualizá-lo. Isso significa que é
+            importante que seu site seja responsivo para que fique bem em qualquer dispositivo.</p>
+            - Responsive Design foi um termo criado por Ethan Marcotte para se referir à prática de ajustar
+            automaticamente o conteúdo de um site à tela em que ele será exibido.
+            Afinal, quando o desktop deixou de ser a fonte principal de conexão à internet, a nova concepção foi
+            essencial.
+        </div>
+    </div>
+    <br>
+    <div class="card mb-3" style="max-width: 900px;">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="./img/criador.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Origem</h5>
+                    <p class="card-text">"Em vez de adaptar designs desconectados a cada um de um número cada vez maior
+                        de dispositivos da web, podemos tratá-los como facetas da mesma experiência. Podemos projetar
+                        para uma experiência de visualização ideal, mas incorporar tecnologias baseadas em padrões em
+                        nossos projetos para torná-los não apenas mais flexíveis, mas mais adaptáveis ​​à mídia que os
+                        processa. Resumindo, precisamos praticar o design responsivo da web."</p>
+                    <h6>Ethan Marcotte</h6>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+        <h1>Mini Linha do Tempo</h1>
+    </div>
+    <br>
+    <div class="card-group">
+        <div class="card">
+            <img src="./img/linha1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2>Início do Web Design</h2>
+                <p>No início da web, as páginas eram projetadas apenas para monitores de computadores, com layouts
+                    fixos. Isso tornou a visualização em dispositivos menores, como celulares, desafiadora.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/linha2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2>A Era dos Sites Móveis</h2>
+                <p>Com o crescimento dos dispositivos móveis, surgiram sites móveis separados, projetados
+                    especificamente para smartphones. Embora fossem uma solução, exigiam duplicação de esforço para
+                    manter dois tipos de sites.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/linha3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2>A Adoção Generalizada</h2>
+                <p>O design responsivo logo se tornou uma prática padrão. O Bootstrap, um popular framework front-end,
+                    foi lançado em 2011, simplificando a criação de sites responsivos.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./img/linha4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h2>O Futuro da Responsividade</h2>
+                <p>A responsividade continua a evoluir com a proliferação de dispositivos. O design adaptativo, imagens
+                    otimizadas para web e tecnologias como CSS Grid e Flexbox estão moldando o futuro do design web
+                    responsivo.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h1>@MEDIA</h1>
+    </div>
+    <br>
+    <div class="card text-bg-dark">
+        <img src="./img/@media.png" class="card-img" alt="...">
+        <div class="card-img-overlay">
+          <h3 class="card-title">media query</h3>
+          <h5 class="card-text">O media query pode adaptar o layout para diferentes tamanhos de tela</h5>
+        </div>
+      </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
